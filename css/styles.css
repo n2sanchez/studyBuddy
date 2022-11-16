@@ -1,0 +1,159 @@
+body{
+       font-family:'Roboto Condensed', sans-serif;
+}
+#title{
+            background-color:pink;
+}
+h1 {
+       font-family: 'Anton', sans-serif;
+       font-weight:bold;
+       font-size: 3rem;
+       line-height:1.5;  
+}
+h2{ 
+       font-family:'Roboto Condensed', sans-serif;
+}
+h3{
+       font-family: 'Anton', sans-serif;
+       font-weight:bold;
+}
+p{
+       color: #8f8f8f;
+}
+.container-fluid { 
+            padding: 3% 15%;
+}
+/* Navigation bar*/
+.navbar{
+       padding:0 0 4.5rem;
+}
+.navbar-brand {
+       font-family:'anton';
+       font-size: 1.5rem;
+       font-weight:bold;
+}
+.navbar-item {
+       padding: 0 18px;
+}
+.navbar-link{
+       font-family: 'Anton', sans-serif;
+       font-size:1.2rem;
+}
+       /*download buttons*/
+.download-button {
+       margin: 5% 3% 5% 0 
+}
+/*title image*/ 
+.title-image { 
+       width:60% ;
+       transform:rotate(30deg);
+       position:absolute;
+}
+/*features section*/
+#features {
+       padding: 7% 15%;
+       background-color:#fff ;
+       z-index: 2;
+       position:relative;
+}
+.feature-box {
+       text-align:center;
+       padding: 5%; 
+}
+.icon{ 
+       color:grey;
+       margin-bottom:1rem;
+}
+.icon:hover { 
+       color:pink;
+}
+/*testimonial section*/
+#testimonials{
+       text-align:center;
+       background-color: pink;
+}
+.testimonial-image{
+       width: 10%;
+       border-radius: 50%;
+       margin: 20px;
+}
+#press {
+       background-color: pink;
+       text-align:center
+}
+.press-logo {
+       width:10%;
+       margin:20px 20px 50px;
+}
+.carousel-item{
+       padding:7% 15%;
+}
+/*pricing selection*/ 
+#pricing{
+       padding: 100px;
+       text-align:center;
+       font-family: 'Anton', sans-serif ;
+
+}
+.pricing-header{
+       color:black;
+}
+.pricing-column{
+       padding:3% 2%
+}
+.pricing-paragraph{
+       font-family: 'Roboto Condensed', sans-serif;
+}
+.card-paragraph {
+       font-family: 'Roboto Condensed', sans-serif;
+}
+.card-header{ 
+       background-color:lightpink ;
+}
+/*alert*/
+#alert {
+       background-color: lightgrey;
+       text-align:center;
+       padding: 100px;
+}
+.alert-header{ 
+       font-size: 40px;
+       color: rgb(198, 49, 74);
+       font-style: bold;
+       text-align: center;
+}
+
+.card-box{ 
+       text-align: center ;
+}
+/*call to action section CTA*/ 
+#cta{
+       background-color:pink;
+       padding: 7% 15%;
+       text-align:center;
+}
+.cta-heading{
+       font-family:'Anton', sans-serif;
+       font-weight:bold;
+       font-size: 3.5rem;
+       line-height: 1.5;
+}
+
+/*Media Quary section*/
+@media (max-width:1028px) {
+       #title{ 
+              text-align:center;
+       }
+       .title-image{
+              position:static;
+              transform:rotate(0);
+       }
+}
+/*footer section*/ 
+#footer{
+       padding:7% 15%;
+       text-align:center;
+}
+.social-icon{
+       margin:20px 10px;
+}
